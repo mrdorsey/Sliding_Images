@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4505C5F71702A455008FCB9C /* click.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4505C5F61702A455008FCB9C /* click.wav */; };
+		455A52F717017524005B4828 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 455A52F617017524005B4828 /* AVFoundation.framework */; };
 		45B53CAF170009DD006F0AF3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45B53CAE170009DD006F0AF3 /* UIKit.framework */; };
 		45B53CB1170009DD006F0AF3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45B53CB0170009DD006F0AF3 /* Foundation.framework */; };
 		45B53CB3170009DD006F0AF3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45B53CB2170009DD006F0AF3 /* CoreGraphics.framework */; };
@@ -17,13 +19,15 @@
 		45B53CC3170009DD006F0AF3 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 45B53CC2170009DD006F0AF3 /* Default@2x.png */; };
 		45B53CC5170009DD006F0AF3 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 45B53CC4170009DD006F0AF3 /* Default-568h@2x.png */; };
 		45B53CC8170009DD006F0AF3 /* MRDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45B53CC7170009DD006F0AF3 /* MRDViewController.m */; };
-		45B53CCB170009DD006F0AF3 /* MRDViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45B53CC9170009DD006F0AF3 /* MRDViewController_iPhone.xib */; };
-		45B53CCE170009DE006F0AF3 /* MRDViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45B53CCC170009DE006F0AF3 /* MRDViewController_iPad.xib */; };
+		45B53CCB170009DD006F0AF3 /* MRDViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45B53CC9170009DD006F0AF3 /* MRDViewController.xib */; };
 		45B53CD6170009DE006F0AF3 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45B53CD5170009DE006F0AF3 /* SenTestingKit.framework */; };
 		45B53CD7170009DE006F0AF3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45B53CAE170009DD006F0AF3 /* UIKit.framework */; };
 		45B53CD8170009DE006F0AF3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45B53CB0170009DD006F0AF3 /* Foundation.framework */; };
 		45B53CE0170009DE006F0AF3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 45B53CDE170009DE006F0AF3 /* InfoPlist.strings */; };
 		45B53CE3170009DE006F0AF3 /* Sliding_ImagesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 45B53CE2170009DE006F0AF3 /* Sliding_ImagesTests.m */; };
+		45B53CED1700149D006F0AF3 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45B53CEC1700149D006F0AF3 /* CoreMotion.framework */; };
+		45B53CEF170014A4006F0AF3 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45B53CEE170014A4006F0AF3 /* MobileCoreServices.framework */; };
+		45ED86D31702A6AE001102FB /* UIImage+UWExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 45ED86D21702A6AE001102FB /* UIImage+UWExtensions.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +41,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4505C5F61702A455008FCB9C /* click.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = click.wav; sourceTree = "<group>"; };
+		455A52F617017524005B4828 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		45B53CAB170009DD006F0AF3 /* Sliding_Images.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sliding_Images.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		45B53CAE170009DD006F0AF3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		45B53CB0170009DD006F0AF3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -52,14 +58,17 @@
 		45B53CC4170009DD006F0AF3 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		45B53CC6170009DD006F0AF3 /* MRDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MRDViewController.h; sourceTree = "<group>"; };
 		45B53CC7170009DD006F0AF3 /* MRDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MRDViewController.m; sourceTree = "<group>"; };
-		45B53CCA170009DD006F0AF3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MRDViewController_iPhone.xib; sourceTree = "<group>"; };
-		45B53CCD170009DE006F0AF3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MRDViewController_iPad.xib; sourceTree = "<group>"; };
+		45B53CCA170009DD006F0AF3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MRDViewController.xib; sourceTree = "<group>"; };
 		45B53CD4170009DE006F0AF3 /* Sliding_ImagesTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Sliding_ImagesTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		45B53CD5170009DE006F0AF3 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		45B53CDD170009DE006F0AF3 /* Sliding_ImagesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Sliding_ImagesTests-Info.plist"; sourceTree = "<group>"; };
 		45B53CDF170009DE006F0AF3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		45B53CE1170009DE006F0AF3 /* Sliding_ImagesTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Sliding_ImagesTests.h; sourceTree = "<group>"; };
 		45B53CE2170009DE006F0AF3 /* Sliding_ImagesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Sliding_ImagesTests.m; sourceTree = "<group>"; };
+		45B53CEC1700149D006F0AF3 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		45B53CEE170014A4006F0AF3 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		45ED86D11702A6AE001102FB /* UIImage+UWExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+UWExtensions.h"; sourceTree = "<group>"; };
+		45ED86D21702A6AE001102FB /* UIImage+UWExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+UWExtensions.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +76,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				455A52F717017524005B4828 /* AVFoundation.framework in Frameworks */,
+				45B53CEF170014A4006F0AF3 /* MobileCoreServices.framework in Frameworks */,
+				45B53CED1700149D006F0AF3 /* CoreMotion.framework in Frameworks */,
 				45B53CAF170009DD006F0AF3 /* UIKit.framework in Frameworks */,
 				45B53CB1170009DD006F0AF3 /* Foundation.framework in Frameworks */,
 				45B53CB3170009DD006F0AF3 /* CoreGraphics.framework in Frameworks */,
@@ -86,9 +98,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4505C5F51702A2BA008FCB9C /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				4505C5F61702A455008FCB9C /* click.wav */,
+			);
+			name = Sounds;
+			sourceTree = "<group>";
+		};
 		45B53CA2170009DD006F0AF3 = {
 			isa = PBXGroup;
 			children = (
+				455A52F617017524005B4828 /* AVFoundation.framework */,
+				45B53CEE170014A4006F0AF3 /* MobileCoreServices.framework */,
+				45B53CEC1700149D006F0AF3 /* CoreMotion.framework */,
 				45B53CB4170009DD006F0AF3 /* Sliding_Images */,
 				45B53CDB170009DE006F0AF3 /* Sliding_ImagesTests */,
 				45B53CAD170009DD006F0AF3 /* Frameworks */,
@@ -123,8 +146,9 @@
 				45B53CBE170009DD006F0AF3 /* MRDAppDelegate.m */,
 				45B53CC6170009DD006F0AF3 /* MRDViewController.h */,
 				45B53CC7170009DD006F0AF3 /* MRDViewController.m */,
-				45B53CC9170009DD006F0AF3 /* MRDViewController_iPhone.xib */,
-				45B53CCC170009DE006F0AF3 /* MRDViewController_iPad.xib */,
+				45B53CC9170009DD006F0AF3 /* MRDViewController.xib */,
+				45ED86D11702A6AE001102FB /* UIImage+UWExtensions.h */,
+				45ED86D21702A6AE001102FB /* UIImage+UWExtensions.m */,
 				45B53CB5170009DD006F0AF3 /* Supporting Files */,
 			);
 			path = Sliding_Images;
@@ -133,6 +157,7 @@
 		45B53CB5170009DD006F0AF3 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				4505C5F51702A2BA008FCB9C /* Sounds */,
 				45B53CB6170009DD006F0AF3 /* Sliding_Images-Info.plist */,
 				45B53CB7170009DD006F0AF3 /* InfoPlist.strings */,
 				45B53CBA170009DD006F0AF3 /* main.m */,
@@ -239,8 +264,8 @@
 				45B53CC1170009DD006F0AF3 /* Default.png in Resources */,
 				45B53CC3170009DD006F0AF3 /* Default@2x.png in Resources */,
 				45B53CC5170009DD006F0AF3 /* Default-568h@2x.png in Resources */,
-				45B53CCB170009DD006F0AF3 /* MRDViewController_iPhone.xib in Resources */,
-				45B53CCE170009DE006F0AF3 /* MRDViewController_iPad.xib in Resources */,
+				45B53CCB170009DD006F0AF3 /* MRDViewController.xib in Resources */,
+				4505C5F71702A455008FCB9C /* click.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,6 +303,7 @@
 				45B53CBB170009DD006F0AF3 /* main.m in Sources */,
 				45B53CBF170009DD006F0AF3 /* MRDAppDelegate.m in Sources */,
 				45B53CC8170009DD006F0AF3 /* MRDViewController.m in Sources */,
+				45ED86D31702A6AE001102FB /* UIImage+UWExtensions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,20 +334,12 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		45B53CC9170009DD006F0AF3 /* MRDViewController_iPhone.xib */ = {
+		45B53CC9170009DD006F0AF3 /* MRDViewController.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
 				45B53CCA170009DD006F0AF3 /* en */,
 			);
-			name = MRDViewController_iPhone.xib;
-			sourceTree = "<group>";
-		};
-		45B53CCC170009DE006F0AF3 /* MRDViewController_iPad.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				45B53CCD170009DE006F0AF3 /* en */,
-			);
-			name = MRDViewController_iPad.xib;
+			name = MRDViewController.xib;
 			sourceTree = "<group>";
 		};
 		45B53CDE170009DE006F0AF3 /* InfoPlist.strings */ = {
@@ -468,6 +486,7 @@
 				45B53CE8170009DE006F0AF3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		45B53CE9170009DE006F0AF3 /* Build configuration list for PBXNativeTarget "Sliding_ImagesTests" */ = {
 			isa = XCConfigurationList;
@@ -476,6 +495,7 @@
 				45B53CEB170009DE006F0AF3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
